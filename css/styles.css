@@ -1,0 +1,453 @@
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+@import url(http://fonts.googleapis.com/css?family=Coda:400,800);
+@import url(http://fonts.googleapis.com/css?family=Cherry+Cream+Soda);
+
+
+@-webkit-keyframes pulse {
+    0%      {opacity: 0.3;}
+    50%     {opacity: 1;}
+    100%    {opacity: 0.3;}
+}
+@keyframes pulse {
+    0%      {opacity: 0.3;}
+    50%     {opacity: 1;}
+    100%    {opacity: 0.3;}
+}
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	font-family: 'Coda', sans-serif;
+	font-size: 16px;
+	padding: 40px;
+	color: #000;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+
+header {
+	background-color: #4A4A4A;
+	padding: 10px;
+
+}
+
+hr {
+	color: #000;
+	background-color: #000;
+	height: 1px;
+	width: 80%;
+}
+
+.menu.drinks {
+	text-align: center;
+}
+
+.menu.desserts {
+	text-align: center;
+}
+
+.logo-pic {
+	width: 150px;
+	float: right;
+}
+
+.long-logo {
+	display: none;
+}
+
+.container {
+	box-shadow: 4px 4px 10px #555;
+	padding: 20px;
+	margin-right: 5%;
+	border: 1px solid #000;
+	width: 75%;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+a {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #640CAB;
+}
+
+a:hover {
+	border-bottom: 4px solid #640CAB;
+}
+
+nav li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow: 2px 2px 2px #292929;
+	padding: 10px;
+	background-color: rgba(63,4,111, .3);
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+nav a {
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 150%;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Cherry Cream Soda', sans-serif;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+nav a:link,
+nav a:visited {
+	color: #FFF;
+	border-bottom: none;
+}
+
+nav li:hover {
+	border-bottom: none;
+	background-color: rgba(74,74,74, .7);
+}
+
+nav a:hover {
+	color: #640CAB;
+}
+
+.row {
+	clear: both;
+	padding-top: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Cherry Cream Soda', sans-serif;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 600%;
+	color: #FFF;
+	margin-left: 10px;
+	text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+h2 {
+	font-size: 275%;
+	color: #924dd5;
+	margin-left: 10px;
+}
+
+h3 {
+	font-size: 200%;
+	color: #640CAB;
+}
+
+.menulist li {
+	margin-left: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-style: italic;
+}
+
+
+b {
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.pizzapic {
+	float: right;
+	width: 400px;
+	margin-bottom:5px;
+	box-shadow: 2px 2px 4px #000;
+	margin-left: 10px;
+	opacity: .75;
+	margin-top: 10px;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pizzapic:hover {
+	opacity: 1.0;
+}
+
+.name {
+	font-
+	font-weight: bold;
+}
+
+.name.pizza {
+	font-weight: bold;
+	color: #4A4A4A;
+	font-size: 125%;
+	margin-top: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-style: none;
+}
+
+.other-menu {
+	margin-left: 20px;
+	font-size: 115%;
+}
+
+.small-bor {
+	display:none;
+}
+
+.description {
+	margin-left: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.price {
+	color: #3F046F;
+	font-weight: bold;
+	font-size: 105%;
+
+}
+
+.prices {
+	margin-left: 20px;
+}
+
+aside {
+	background-color: #EEE;
+	border: 3px dotted #CCC;
+	padding: 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.top.delivery {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+}
+
+.delivery h1{
+	font-size: 225%;
+	margin: 0px;
+	color: #949494;
+	text-shadow: #000 0.05em 0.05em 0.1em;
+	padding:5px;
+}
+
+.delivery p {
+	font-size: 200%;
+	margin: 0px;
+	text-shadow: #000 0.05em 0.05em 0.05em;
+	color: #640CAB;
+	font-weight: bold;
+	padding: 5px;
+}
+
+footer {
+	text-align: right;
+	color: #3F046F;
+	font-size: 100%;
+	text-shadow: #000 0.05em 0.05em 0.05em;
+	clear: both;
+	margin-bottom: -10px;
+	margin-right: -10px;
+}
+
+.border-col {
+	border-right: 1px solid #000;
+}
+
+a:focus {
+	background-color: #A468D5;
+	border: 2px dotted #3F046F;
+}
+
+.bottom.delivery {
+	display: none;
+	position: relative;
+	text-align: center;
+}
+
+.emphasis {
+	color: #A468D5;
+	font-weight: bold;
+	text-shadow: #000 0.05em 0.05em 0.05em;
+	font-size: 120%;
+	font-style: italic;
+	padding: 10px;
+}
+
+@media (max-width: 990px) {
+	h1 {
+		clear: both;
+	}
+
+	.pizzapic {
+		float: none;
+	}
+
+	.logo-pic {
+		display: none;
+	}
+
+	.container.long-logo {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+
+	.top.delivery {
+		width: 20%;
+	}
+
+	.delivery h1 {
+		font-size: 175%;
+	}
+
+	.delivery p {
+		font-size: 150%;
+	}
+
+	.small-bor {
+		display: block;
+	}
+
+	.menu.pizzas {
+		text-align: center;
+	}
+
+	.border-col {
+		border: 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.pizzapic {
+		display: none;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	nav ul {
+		left: 50%;
+	}
+
+	nav li {
+		display: list-item;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	nav a {
+		display: list-item;
+		font-size: 24px;
+		box-shadow: none;
+	}
+
+	body, p, h1, h2, h3, a, dt, dd, li,
+	.menulist li {
+		margin-left: 0px;
+		text-align: center;	}
+
+	.top.delivery {
+		position: relative;
+		width: auto;
+		margin: 0 auto;
+		top: 0;
+		left: 0;
+	}
+
+	.top.delivery h1{
+		display: none;
+	}
+
+	.top.delivery p {
+		display: none;
+	}
+
+	.bottom.delivery {
+		display: block;
+		font-size: 175%;
+	}
+	.bottom.delivery h1 {
+		display: block;
+		font-size: 150%;
+	}
+
+	.bottom.delivery p {
+		display: block;
+	}
+
+	.container .long-logo {
+		display: none;
+	}
+
+
+	h1 {
+		font-size: 450%;
+	}
+
+	h2 {
+		display: none;
+	}
+
+	.long-logo {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.pizzapic {
+		width: 100px;
+	}
+
+	h1 {
+		font-size: 300%;
+	}
+
+	.bottom.delivery {
+		display: block;
+		font-size: 150%;
+	}
+	.bottom.delivery h1 {
+		display: block;
+		font-size: 125%;
+	}
+}
