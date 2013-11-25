@@ -138,7 +138,50 @@ nav a:hover {
 
 .row {
 	clear: both;
+}
+
+.cart-title {
 	padding-top: 10px;
+	font-family: 'Coda', sans-serif;
+	margin-left: 0px;
+	color: #4A4A4A;
+}
+
+.btn-default {
+	background-color: #949494;
+	color: #FFF;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.btn-default:hover,
+.btn-default:visited,
+.btn-default:active,
+.btn-default:link {
+	background-color: #924DD5;
+	color: #FFF;
+}
+
+.btn-primary {
+	background-color: #3F046F;
+	border: #FFF;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:link {
+	background-color: #924DD5;
 }
 
 h1, h2, h3 {
@@ -157,7 +200,7 @@ h1 {
 
 h2 {
 	font-size: 275%;
-	color: #924dd5;
+	color: #924DD5;
 	margin-left: 10px;
 }
 
@@ -173,10 +216,22 @@ h3 {
 	font-style: italic;
 }
 
+.main-text {
+	margin-top: 10px;
+}
 
 b {
 	font-size: 115%;
 	font-weight: bold;
+}
+
+.main-text b {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.templates {
+	display: none;
 }
 
 .pizzapic {
@@ -236,8 +291,28 @@ b {
 
 }
 
+.cart.price {
+	color: #4A4A4A;
+	font-weight: bold;
+}
+
+.item-price {
+	color: #4A4A4A;
+	font-weight: bold;
+}
 .prices {
 	margin-left: 20px;
+}
+
+.btn .price {
+	clear: both;
+}
+
+.subtotal-price,
+.tax-price,
+.total-price {
+	font-weight: bold;
+	color: #3F046F;
 }
 
 aside {
@@ -348,6 +423,10 @@ a:focus {
 	.border-col {
 		border: 0px;
 	}
+
+	h3 {
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -431,6 +510,8 @@ a:focus {
 		display: block;
 		width: 100%;
 	}
+
+
 }
 
 @media (max-width: 400px) {
