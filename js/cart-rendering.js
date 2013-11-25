@@ -77,6 +77,11 @@ $(function(){
         }
     });
 
+    $('.clear-items').click(function() {
+        cart.items = [];
+        renderCart(cart, $('.cart-container'));
+    })
+
 }); //doc ready
 
 // renderCart()
